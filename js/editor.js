@@ -29,7 +29,7 @@ define([
     if(loadEmmet) {
       ace.require("ace/lib/net").loadScript("js/ace/ext-emmet.js", function() {
         editor.session.setMode("ace/mode/html");
-        editor.setOption("enableEmmet", true);  
+        // editor.setOption("enableEmmet", true);  
       });
     }
 
