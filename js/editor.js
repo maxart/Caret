@@ -26,12 +26,12 @@ define([
       themes.append(option);
     });
 
-    // if(loadEmmet) {
-    //   ace.require("ace/ext/emmet").loadScript("js/ace/ext-emmet.js", function() {
-    //     // editor.session.setMode("ace/mode/html");
-    //     // editor.setOption("enableEmmet", true);  
-    //   });
-    // }
+    if(loadEmmet) {
+      ace.require("ace/lib/net").loadScript("js/ace/ext-emmet.js", function() {
+        editor.session.setMode("ace/mode/html");
+        editor.setOption("enableEmmet", true);  
+      });
+    }
 
     if (userConfig.emulateVim) {
       ace.require("ace/lib/net").loadScript("js/ace/keybinding-vim.js", function() {
