@@ -14,6 +14,9 @@ define([
   
   var themes = document.querySelector(".theme");
   
+
+  var loadEmmet = true;
+   
   //one-time startup
   var init = function() {
     aceConfig.themes.forEach(function(theme) {
@@ -22,6 +25,14 @@ define([
       option.setAttribute("value", theme.name);
       themes.append(option);
     });
+
+    // if(loadEmmet) {
+    //   ace.require("ace/ext/emmet").loadScript("js/ace/ext-emmet.js", function() {
+    //     // editor.session.setMode("ace/mode/html");
+    //     // editor.setOption("enableEmmet", true);  
+    //   });
+    // }
+
     if (userConfig.emulateVim) {
       ace.require("ace/lib/net").loadScript("js/ace/keybinding-vim.js", function() {
         editor.setKeyboardHandler(ace.require("ace/keyboard/vim").handler);
