@@ -20,6 +20,7 @@ require([
   var setTheme = function() {
     var user = Settings.get("user");
     var themes = {
+      "spacegrey": "css/caret-spacegrey.css",
       "dark": "css/caret-dark.css",
       "light": "css/caret.css"
     };

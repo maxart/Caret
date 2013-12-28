@@ -20,6 +20,8 @@
     { "name": "solarized_light", "label": "Solarized" },
     { "name": "solarized_dark", "label": "Solarized Dark" },
     { "name": "son_of_obsidian", "label": "Son of Obsidian" },
+    { "name": "spacegrey_dark", "label": "Spacegrey Dark" },
+    { "name": "spacegrey_light", "label": "Spacegrey Light" },
     { "name": "terminal", "label": "Terminal" },
     { "name": "textmate", "label": "Textmate" },
     { "name": "tomorrow", "label": "Tomorrow" },

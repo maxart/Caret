@@ -13,7 +13,8 @@ module.exports = function(grunt) {
       light: {
         files: {
           "css/caret.css": "css/seed.less",
-          "css/caret-dark.css": "css/seed-dark.less"
+          "css/caret-dark.css": "css/seed-dark.less",
+          "css/caret-spacegrey.css": "css/seed-spacegrey.less"
         }
       }
     },

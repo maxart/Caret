@@ -24,6 +24,8 @@
     pastel_on_dark
     solarized_dark
     solarized_light
+    spacegrey_dark
+    spacegrey_light
     terminal
     textmate
     tomorrow
@@ -35,8 +37,8 @@
     vibrant_ink
     xcode
   */
-  "uiTheme": "light", //dark or light, your pick
-  "cursor": "slim", //"ace", "slim", "smooth", "wide",
+  "uiTheme": "light", //dark, light, or spacegrey
+  "cursor": "slim", //"ace", "slim", "smooth", or "wide"
   "highlightLine": false,
   
   "showWhitespace": false, //show whitespace characters (spaces, tabs, returns)
